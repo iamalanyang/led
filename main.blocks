@@ -1,0 +1,67 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="EP9fbSC,^(bbp@ge[.{I">sprite</variable></variables><block type="pxt-on-start" id="_/$.Qg|,#dQ{bIR.uX6f" x="1" y="-308"><statement name="HANDLER"><block type="playMelody" id="*a(t%ja8+a-FX2bN;G=$"><value name="melody"><shadow type="melody_editor" id="L#SbCP|F8V[8%.;?/h+n"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="fI0)yC]|M)nOVd]ZBskT"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">150</field></shadow></value></block></statement></block><block type="device_forever" id="K?fVK:G4d8.[}ncVVNv;" collapsed="true" x="0" y="0"><statement name="HANDLER"><block type="device_show_image_offset" id="vXaaX}]6NyZ?#q!m]`|a"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="dn:,,m8BFW2YWY4x4Hdo"><field name="LEDS">`
+        . . # . . . . . . . 
+        # # # # # . . . . . 
+        # . # . # . . . . . 
+        # # # # # . . . . . 
+        . . # . . . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="4oP/(P+]-VT0-0fh=1jo"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="7;c}.SmyG[)xJXg$0@3V"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="+#s0YC%9ydjjMpOFLPd{"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="pp1f~F78Fy7QGxGx:9T;"><field name="LEDS">`
+        . . . # . . . . . . 
+        . # # # # # . . . . 
+        . # . # . # . . . . 
+        . # # # # # . . . . 
+        . . . # . . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="xul}Z9*Oz%{4q8mNe8D@"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="J_ppN.+V|.}^|L%U2inz"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="taU[t5szIoD0mZa*P~g|"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="hRnrTE?fd=q}fF#E?/UK"><field name="LEDS">`
+        . . . . # . . . . . 
+        . . # # # # # . . . 
+        . . # . # . # . . . 
+        . . # # # # # . . . 
+        . . . . # . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="OaReCbrko:g**$:(s-cE"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="d#+}/TX(}Lw2e44h44$@"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="fQI^!KRJ?[8Vj;bguFct"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="cPHwSpv(#Gih3y%!F|yJ"><field name="LEDS">`
+        . . . . . # . . . . 
+        . . . # # # # # . . 
+        . . . # . # . # . . 
+        . . . # # # # # . . 
+        . . . . . # . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="csCX)UIN(guO7PC8Q3:~"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="GcglZzpk2^2^WCrb}_t|"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="*NG;yP7W2!n2MU|D|VG2"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="*QlQc9!tRLavV=pgWcTd"><field name="LEDS">`
+        . . . . . . # . . . 
+        . . . . # # # # # . 
+        . . . . # . # . # . 
+        . . . . # # # # # . 
+        . . . . . . # . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="{zAK}?cj5R5HdkNP2G`%"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="-albRM[%5v}t#AhJrhwT"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="7$,IoNj$wMSuZQP~ngCV"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="GnQ.+devF{jXw~6`T:Zi"><field name="LEDS">`
+        . . . . . . . # . . 
+        . . . . . # # # # # 
+        . . . . . # . # . # 
+        . . . . . # # # # # 
+        . . . . . . . # . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="u}T!Y-5#Rw:/bjJ4~f|2"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="o/Sp,@(tSb)3eB%;H`[@"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="#f%]fX0_8-{!iBA`-Bt~"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="NU}#Ud$MPv+I23/W(dh$"><field name="LEDS">`
+        . . . . . . # . . . 
+        . . . . # # # # # . 
+        . . . . # . # . # . 
+        . . . . # # # # # . 
+        . . . . . . # . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="P!=%WGTo@qKG/?_VWOrf"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="l/`LTjzDK,p=i]C4%s5="><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="5L0f*X4e6BK{)Rm5@GPH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id=",5X,=7?ii)E6MELL2xjv"><field name="LEDS">`
+        . . . . . # . . . . 
+        . . . # # # # # . . 
+        . . . # . # . # . . 
+        . . . # # # # # . . 
+        . . . . . # . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="^2Q0e/2}mCQ14_8_d#qP"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="==xV*sRj%lY|b3`wGHM$"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="#++!43LS9x6}I0[j9|2^"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="8SBCnZ#}saI^tE.!l)rr"><field name="LEDS">`
+        . . . . # . . . . . 
+        . . # # # # # . . . 
+        . . # . # . # . . . 
+        . . # # # # # . . . 
+        . . . . # . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="?B^b}6TRnAMt]gE/Sy}Y"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="f(6:Qi~g^GwHltb0pgrz"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="Qh!3g`T!/5@0o3H8{`Uw"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id="BFX^+in*GNxW=3qV-sZj"><field name="LEDS">`
+        . . . # . . . . . . 
+        . # # # # # . . . . 
+        . # . # . # . . . . 
+        . # # # # # . . . . 
+        . . . # . . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="0T;lGBWJZ/@3//FQdStq"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="3BgQg@g2gZUc{-Y+_dcc"><field name="NUM">200</field></shadow></value><next><block type="device_show_image_offset" id="hp:z*w4;O7;_uQ{iM*qh"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="sprite"><block type="device_build_big_image" id=";/RxCqM*i_Ey@GIrc^OV"><field name="LEDS">`
+        . . # . . . . . . . 
+        # # # # # . . . . . 
+        # . # . # . . . . . 
+        # # # # # . . . . . 
+        . . # . . . . . . .
+        `</field></block></value><value name="offset"><shadow type="math_number" id="hVXAN0Qv$I3Q%i#R|+79"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="l{:pfJt`!fGAI3YrpVYk"><field name="NUM">200</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
